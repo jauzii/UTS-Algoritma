@@ -1,10 +1,7 @@
-// ============================================================
-//  BUBBLE SORT - Implementasi tanpa library
 //  Penjelasan:
 //  Membandingkan dua elemen berdekatan dan menukarnya jika
 //  urutan salah. Proses diulang sampai array terurut.
 //  Elemen besar "menggelembung" ke akhir di setiap pass.
-// ============================================================
 
 // --- Versi dasar ---
 function bubbleSort(arr) {

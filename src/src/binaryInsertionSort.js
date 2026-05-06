@@ -1,10 +1,8 @@
-// ============================================================
 //  BINARY INSERTION SORT - Implementasi tanpa library
 //  Penjelasan:
 //  Peningkatan dari Insertion Sort biasa. Posisi insert dicari
 //  menggunakan Binary Search sehingga komparasi berkurang dari
 //  O(n) menjadi O(log n) per elemen.
-// ============================================================
 
 // Helper: Binary Search → cari posisi insert di arr[low..high]
 function binarySearch(arr, key, low, high) {
